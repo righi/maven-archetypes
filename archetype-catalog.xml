@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog  xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd">
+  <archetypes>
+    <archetype>
+		<groupId>com.michaelrighi.archetypes</groupId>
+		<artifactId>java-1_6</artifactId>
+		<version>0.1</version>
+		<description>Archetype for creating a Java 1.6 Eclipse project.</description>
+    </archetype>
+    <archetype>
+		<groupId>com.michaelrighi.archetypes</groupId>
+		<artifactId>jee-5</artifactId>
+		<version>0.1</version>
+		<description>Archetype for creating a Java Web Eclipse project, for JEE5 and JSE 1.6</description>
+    </archetype>
+    <archetype>
+		<groupId>com.michaelrighi.archetypes</groupId>
+		<artifactId>java-1_6-spring3</artifactId>
+		<version>0.1</version>
+		<description>Archetype for creating a Java 1.6 and Spring 3 Eclipse Project.</description>
+    </archetype>
+    <archetype>
+		<groupId>com.michaelrighi.archetypes</groupId>
+		<artifactId>jee-5-spring3-mvc</artifactId>
+		<version>0.1</version>
+		<description>Archetype for creating a Spring 3 MVC Eclipse project.</description>
+    </archetype>
+  </archetypes>
+</archetype-catalog>

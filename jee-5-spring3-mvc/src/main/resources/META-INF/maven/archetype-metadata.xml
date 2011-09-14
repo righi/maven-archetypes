@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="basic">
+	<fileSets>
+		<fileSet filtered="true" packaged="true">
+			<directory>src/main/java</directory>
+			<includes>
+				<include>**/*.java</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="true" packaged="false">
+			<directory>src/main/resources</directory>
+			<includes>
+				<include>**/*.properties</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="true" packaged="false">
+			<directory>src/main/webapp</directory>
+			<includes>
+				<include>WEB-INF/*.xml</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false" packaged="false">
+			<directory>src/main/webapp/WEB-INF/pages</directory>
+			<includes>
+				<include>*.jsp</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false" packaged="false">
+			<directory>src/main/webapp/WEB-INF/jspf</directory>
+			<includes>
+				<include>*.jspf</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+</archetype-descriptor>
